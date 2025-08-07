@@ -39,7 +39,6 @@
       "flag": "0"
     },
     {
-      "local_id": "LOCALID_VERDANTURF_TWIN",
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
       "x": 9,
       "y": 2,
@@ -130,7 +129,9 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
