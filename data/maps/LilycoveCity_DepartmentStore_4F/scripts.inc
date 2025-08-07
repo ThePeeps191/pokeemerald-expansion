@@ -25,11 +25,13 @@ LilycoveCity_DepartmentStore_4F_EventScript_ClerkLeft::
 
 	.align 2
 LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
-	.2byte ITEM_TM_FIRE_BLAST
-	.2byte ITEM_TM_THUNDER
-	.2byte ITEM_TM_BLIZZARD
-	.2byte ITEM_TM_HYPER_BEAM
-	pokemartlistend
+	.2byte ITEM_TM38  @ Fire Blast
+	.2byte ITEM_TM25  @ Thunder
+	.2byte ITEM_TM14  @ Blizzard
+	.2byte ITEM_TM15  @ Hyper Beam
+	.2byte ITEM_NONE
+	release
+	end
 
 LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight::
 	lock
@@ -43,11 +45,13 @@ LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight::
 
 	.align 2
 LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
-	.2byte ITEM_TM_PROTECT
-	.2byte ITEM_TM_SAFEGUARD
-	.2byte ITEM_TM_REFLECT
-	.2byte ITEM_TM_LIGHT_SCREEN
-	pokemartlistend
+	.2byte ITEM_TM17  @ Protect
+	.2byte ITEM_TM20  @ Safeguard
+	.2byte ITEM_TM33  @ Reflect
+	.2byte ITEM_TM16  @ Light Screen
+	.2byte ITEM_NONE
+	release
+	end
 
 LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM:
 	.string "Hmm…\p"
