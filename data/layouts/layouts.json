@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/FloracrestTown/border.bin",
       "blockdata_filepath": "data/layouts/FloracrestTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLORACREST_TOWN_PLAYERS_HOUSE_1F",
+      "name": "FloracrestTown_PlayersHouse_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/FloracrestTown_PlayersHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/FloracrestTown_PlayersHouse_1F/map.bin"
     }
   ]
 }

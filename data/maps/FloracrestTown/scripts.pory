@@ -1,0 +1,23 @@
+mapscripts FloracrestTown_MapScripts {
+
+}
+
+script FloracrestTown_EventScript_PlayersHouseSign {
+    msgbox("{PLAYER}'s HOUSE", MSGBOX_SIGN)
+    end
+}
+
+script FloracrestTown_EventScript_RivalsHouseSign {
+    msgbox("Rival's HOUSE", MSGBOX_SIGN)
+    end
+}
+
+script FloracrestTown_EventScript_TownSign {
+    msgbox("Floracrest Town\nA blossoming town nestled in the heart of Astaria.", MSGBOX_SIGN)
+    end
+}
+
+script FloracrestTown_EventScript_FatMan {
+    msgbox(format("Astaria is really cozy! I moved here from Kalos and it's so peaceful here."), MSGBOX_NPC)
+    end
+}
