@@ -28,17 +28,16 @@ FloracrestTown_EventScript_FatMan::
 
 FloracrestTown_EventScript_PlayersHouseSign_Text_0:
 # 6 "data/maps/FloracrestTown/scripts.pory"
-	.string "{PLAYER}'s HOUSE$"
+	.string "{PLAYER}'s House$"
 
 FloracrestTown_EventScript_RivalsHouseSign_Text_0:
 # 11 "data/maps/FloracrestTown/scripts.pory"
-	.string "Rival's HOUSE$"
+	.string "Rival's House$"
 
 FloracrestTown_EventScript_TownSign_Text_0:
 # 16 "data/maps/FloracrestTown/scripts.pory"
-	.string "Floracrest Town\nA blossoming town nestled in the heart of Astaria.$"
+	.string "Floracrest Town\nWhere every journey blooms and new beginnings take root.$"
 
 FloracrestTown_EventScript_FatMan_Text_0:
 # 21 "data/maps/FloracrestTown/scripts.pory"
-	.string "Astaria is really cozy! I moved here\n"
-	.string "from Kalos and it's so peaceful here.$"
+	.string "Astaria is really cozy!\pI moved here from Kalos and it's so peaceful.\pMaybe I should visit the calm seaside too…$"

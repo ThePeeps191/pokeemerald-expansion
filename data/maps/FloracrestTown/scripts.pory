@@ -13,11 +13,11 @@ script FloracrestTown_EventScript_RivalsHouseSign {
 }
 
 script FloracrestTown_EventScript_TownSign {
-    msgbox("Floracrest Town\nA blossoming town nestled in the heart of Astaria.", MSGBOX_SIGN)
+    msgbox("Floracrest Town\nWhere every journey blooms and new beginnings take root.", MSGBOX_SIGN)
     end
 }
 
 script FloracrestTown_EventScript_FatMan {
-    msgbox(format("Astaria is really cozy! I moved here from Kalos and it's so peaceful."), MSGBOX_NPC)
+    msgbox("Astaria is really cozy!\pI moved here from Kalos and it's so peaceful.\pMaybe I should visit the calm seaside too…", MSGBOX_NPC)
     end
 }
