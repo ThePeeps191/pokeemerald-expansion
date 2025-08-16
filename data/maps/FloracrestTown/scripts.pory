@@ -4,20 +4,16 @@ mapscripts FloracrestTown_MapScripts {
 
 script FloracrestTown_EventScript_PlayersHouseSign {
     msgbox("{PLAYER}'s House", MSGBOX_SIGN)
-    end
 }
 
 script FloracrestTown_EventScript_RivalsHouseSign {
     msgbox("Rival's House", MSGBOX_SIGN)
-    end
 }
 
 script FloracrestTown_EventScript_TownSign {
-    msgbox("Floracrest Town\nWhere every journey blooms and new beginnings take root.", MSGBOX_SIGN)
-    end
+    msgbox("Floracrest Town\n“Where journeys take root”", MSGBOX_SIGN)
 }
 
 script FloracrestTown_EventScript_FatMan {
-    msgbox("Astaria is really cozy!\pI moved here from Kalos and it's so peaceful.\pMaybe I should visit the calm seaside too…", MSGBOX_NPC)
-    end
+    msgbox("{COLOR BLUE}{SHADOW LIGHT_BLUE}Astaria is really cozy!\pI moved here from Kalos and it's so\npeaceful.\pMaybe I should visit the calm seaside\ntoo…", MSGBOX_NPC)
 }
