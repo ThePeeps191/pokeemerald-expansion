@@ -17,7 +17,7 @@
     {
       "local_id": "LOCALID_FLORACREST_TWIN",
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 16,
+      "x": 26,
       "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
@@ -30,7 +30,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
-      "x": 12,
+      "x": 22,
       "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
@@ -43,7 +43,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
-      "x": 14,
+      "x": 24,
       "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
@@ -57,7 +57,7 @@
     {
       "local_id": "LOCALID_FLORACREST_MOM",
       "graphics_id": "OBJ_EVENT_GFX_MOM",
-      "x": 9,
+      "x": 19,
       "y": 1,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -71,7 +71,7 @@
     {
       "local_id": "LOCALID_FLORACREST_RIVAL",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 7,
+      "x": 17,
       "y": 1,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -85,7 +85,7 @@
     {
       "local_id": "LOCALID_FLORACREST_BIRCH",
       "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
-      "x": 8,
+      "x": 18,
       "y": 1,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -95,25 +95,67 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BIRCH"
+    },
+    {
+      "local_id": "LOCALID_FLORACREST_SAILOR",
+      "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+      "x": 19,
+      "y": 24,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FloracrestTown_EventScript_SailorInteract",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_FLORACREST_BOAT",
+      "graphics_id": "OBJ_EVENT_GFX_MR_BRINEYS_BOAT",
+      "x": 17,
+      "y": 24,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_FLORACREST_FISHERMAN",
+      "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
+      "x": 22,
+      "y": 28,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FloracrestTown_EventScript_DockFisherman",
+      "flag": "0"
     }
   ],
   "warp_events": [
     {
-      "x": 14,
+      "x": 24,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F",
       "dest_warp_id": "1"
     },
     {
-      "x": 5,
+      "x": 15,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_FLORACREST_TOWN_PLAYERS_HOUSE_1F",
       "dest_warp_id": "1"
     },
     {
-      "x": 7,
+      "x": 17,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
@@ -123,7 +165,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 10,
+      "x": 20,
       "y": 0,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
@@ -132,7 +174,7 @@
     },
     {
       "type": "trigger",
-      "x": 11,
+      "x": 21,
       "y": 0,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
@@ -141,7 +183,7 @@
     },
     {
       "type": "trigger",
-      "x": 11,
+      "x": 21,
       "y": 0,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
@@ -150,7 +192,7 @@
     },
     {
       "type": "trigger",
-      "x": 10,
+      "x": 20,
       "y": 1,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
@@ -159,7 +201,7 @@
     },
     {
       "type": "trigger",
-      "x": 11,
+      "x": 21,
       "y": 1,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
@@ -170,7 +212,7 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 15,
+      "x": 25,
       "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -178,15 +220,15 @@
     },
     {
       "type": "sign",
-      "x": 6,
+      "x": 16,
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "LittlerootTown_EventScript_BirchsLabSign"
+      "script": "FloracrestTown_EventScript_ProfessorLabSign"
     },
     {
       "type": "sign",
-      "x": 7,
+      "x": 17,
       "y": 8,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -194,11 +236,19 @@
     },
     {
       "type": "sign",
-      "x": 12,
+      "x": 22,
       "y": 8,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "FloracrestTown_EventScript_RivalsHouseSign"
+    },
+    {
+      "type": "sign",
+      "x": 24,
+      "y": 20,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "FloracrestTown_EventScript_BaySign"
     }
   ]
 }

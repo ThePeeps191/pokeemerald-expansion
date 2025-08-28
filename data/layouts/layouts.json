@@ -4414,8 +4414,8 @@
     {
       "id": "LAYOUT_FLORACREST_TOWN",
       "name": "FloracrestTown_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 36,
+      "height": 36,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/FloracrestTown/border.bin",
@@ -4430,6 +4430,16 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/FloracrestTown_PlayersHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/FloracrestTown_PlayersHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLORACREST_TOWN_PLAYERS_HOUSE_2F",
+      "name": "FloracrestTown_PlayersHouse_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/FloracrestTown_PlayersHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/FloracrestTown_PlayersHouse_2F/map.bin"
     }
   ]
 }

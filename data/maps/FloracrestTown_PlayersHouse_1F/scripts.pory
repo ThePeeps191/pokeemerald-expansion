@@ -1,3 +1,16 @@
 mapscripts FloracrestTown_PlayersHouse_1F_MapScripts {
     
 }
+
+script FloracrestTown_PlayersHouse_1F_EventScript_DadScript {
+    msgbox("{COLOR BLUE}The Pokémon War is finally over!\pI can stay home with your mom and\nbrother now.", MSGBOX_NPC)
+}
+
+script FloracrestTown_PlayersHouse_1F_EventScript_BrotherScript {
+    msgbox("{COLOR BLUE}Hey {PLAYER}, quit bothering me!\pI'm playing Kirby on my Gameboy.", MSGBOX_NPC)
+    applymovement(LOCALID_PLAYERSHOUSE_BROTHER, Common_Movement_FaceDown)
+}
+
+script FloracrestTown_PlayersHouse_1F_EventScript_MomScript {
+    msgbox("{COLOR RED}Go explore Floracrest Town, honey!\nI'll take care of the unpacking.", MSGBOX_NPC)
+}

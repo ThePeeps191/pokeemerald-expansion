@@ -6,8 +6,16 @@ script FloracrestTown_EventScript_PlayersHouseSign {
     msgbox("{PLAYER}'s House", MSGBOX_SIGN)
 }
 
+script FloracrestTown_EventScript_BaySign {
+    msgbox("Floracrest Bay", MSGBOX_SIGN)
+}
+
 script FloracrestTown_EventScript_RivalsHouseSign {
-    msgbox("Rival's House", MSGBOX_SIGN)
+    msgbox("Rival Elena's House", MSGBOX_SIGN)
+}
+
+script FloracrestTown_EventScript_ProfessorLabSign {
+    msgbox("Prof. Calla's Pokémon Lab", MSGBOX_SIGN)
 }
 
 script FloracrestTown_EventScript_TownSign {
@@ -15,5 +23,14 @@ script FloracrestTown_EventScript_TownSign {
 }
 
 script FloracrestTown_EventScript_FatMan {
-    msgbox("{COLOR BLUE}{SHADOW LIGHT_BLUE}Astaria is really cozy!\pI moved here from Kalos and it's so\npeaceful.\pMaybe I should visit the calm seaside\ntoo…", MSGBOX_NPC)
+    msgbox("{COLOR BLUE}Astaria is really cozy!\pI moved here from Kalos and it's so\nmuch more peaceful.\pMaybe I should visit the calm seaside\ntoo…", MSGBOX_NPC)
+}
+
+script FloracrestTown_EventScript_SailorInteract {
+    msgbox("{COLOR BLUE}You're not cut out for the sea, kid.\pGet off the dock!", MSGBOX_NPC)
+}
+
+script FloracrestTown_EventScript_DockFisherman {
+    msgbox("{COLOR BLUE}The sea is a great place to relax.\pI come here to fish whenever I can!", MSGBOX_NPC)
+    applymovement(LOCALID_FLORACREST_FISHERMAN, Common_Movement_FaceDown)
 }

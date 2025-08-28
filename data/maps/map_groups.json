@@ -624,6 +624,7 @@
     "Route124_DivingTreasureHuntersHouse"
   ],
   "gMapGroup_IndoorFloracrest": [
-    "FloracrestTown_PlayersHouse_1F"
+    "FloracrestTown_PlayersHouse_1F",
+    "FloracrestTown_PlayersHouse_2F"
   ]
 }
