@@ -133,15 +133,9 @@
       "y": 52
     },
     {
-      "id": "HEAL_LOCATION_FLORACREST_TOWN_MAYS_HOUSE",
-      "map": "MAP_FLORACREST_TOWN",
-      "x": 24,
-      "y": 9
-    },
-    {
       "id": "HEAL_LOCATION_FLORACREST_TOWN_PLAYERS_HOUSE",
       "map": "MAP_FLORACREST_TOWN",
-      "x": 15,
+      "x": 11,
       "y": 9
     },
     {

@@ -4414,7 +4414,7 @@
     {
       "id": "LAYOUT_FLORACREST_TOWN",
       "name": "FloracrestTown_Layout",
-      "width": 36,
+      "width": 40,
       "height": 36,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",

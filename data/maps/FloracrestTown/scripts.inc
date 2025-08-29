@@ -52,6 +52,14 @@ FloracrestTown_EventScript_DockFisherman::
 	return
 
 
+FloracrestTown_EventScript_GuardKid::
+# 39 "data/maps/FloracrestTown/scripts.pory"
+	msgbox FloracrestTown_EventScript_GuardKid_Text_0, MSGBOX_NPC
+# 40 "data/maps/FloracrestTown/scripts.pory"
+	applymovement LOCALID_FLORACREST_GUARDKID, Common_Movement_FaceDown
+	return
+
+
 FloracrestTown_EventScript_PlayersHouseSign_Text_0:
 # 6 "data/maps/FloracrestTown/scripts.pory"
 	.string "{PLAYER}'s House$"
@@ -83,3 +91,7 @@ FloracrestTown_EventScript_SailorInteract_Text_0:
 FloracrestTown_EventScript_DockFisherman_Text_0:
 # 34 "data/maps/FloracrestTown/scripts.pory"
 	.string "{COLOR BLUE}The sea is a great place to relax.\pI come here to fish whenever I can!$"
+
+FloracrestTown_EventScript_GuardKid_Text_0:
+# 39 "data/maps/FloracrestTown/scripts.pory"
+	.string "{COLOR BLUE}My dad's a guard at the\nFloracrest Bay Lighthouse!\pHe says it's his job to protect\nthe town from sea monsters!$"

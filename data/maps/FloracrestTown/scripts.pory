@@ -34,3 +34,8 @@ script FloracrestTown_EventScript_DockFisherman {
     msgbox("{COLOR BLUE}The sea is a great place to relax.\pI come here to fish whenever I can!", MSGBOX_NPC)
     applymovement(LOCALID_FLORACREST_FISHERMAN, Common_Movement_FaceDown)
 }
+
+script FloracrestTown_EventScript_GuardKid {
+    msgbox("{COLOR BLUE}My dad's a guard at the\nFloracrest Bay Lighthouse!\pHe says it's his job to protect\nthe town from sea monsters!", MSGBOX_NPC)
+    applymovement(LOCALID_FLORACREST_GUARDKID, Common_Movement_FaceDown)
+}
