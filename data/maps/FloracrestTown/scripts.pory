@@ -15,7 +15,7 @@ script FloracrestTown_EventScript_RivalsHouseSign {
 }
 
 script FloracrestTown_EventScript_ProfessorLabSign {
-    msgbox("Prof. Calla's Pokémon Lab", MSGBOX_SIGN)
+    msgbox("Professor Calla's Pokémon Lab", MSGBOX_SIGN)
 }
 
 script FloracrestTown_EventScript_TownSign {
@@ -27,7 +27,7 @@ script FloracrestTown_EventScript_FatMan {
 }
 
 script FloracrestTown_EventScript_SailorInteract {
-    msgbox("{COLOR BLUE}You're not cut out for the sea, kid.\pGet off the dock!", MSGBOX_NPC)
+    msgbox("{COLOR BLUE}You're not cut out for the sea, kid.\pScram!", MSGBOX_NPC)
 }
 
 script FloracrestTown_EventScript_DockFisherman {
@@ -36,6 +36,6 @@ script FloracrestTown_EventScript_DockFisherman {
 }
 
 script FloracrestTown_EventScript_GuardKid {
-    msgbox("{COLOR BLUE}My dad's a guard at the\nFloracrest Bay Lighthouse!\pHe says it's his job to protect\nthe town from sea monsters!", MSGBOX_NPC)
+    msgbox("{COLOR BLUE}It's dangerous to go into the the\ngrass!\pWild Pokémon will jump out and attack\nyou.\pYou'll need your own Pokémon to protect\nyou if you get attacked.", MSGBOX_NPC)
     applymovement(LOCALID_FLORACREST_GUARDKID, Common_Movement_FaceDown)
 }

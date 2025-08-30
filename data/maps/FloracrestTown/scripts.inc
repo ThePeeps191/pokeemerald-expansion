@@ -74,7 +74,7 @@ FloracrestTown_EventScript_RivalsHouseSign_Text_0:
 
 FloracrestTown_EventScript_ProfessorLabSign_Text_0:
 # 18 "data/maps/FloracrestTown/scripts.pory"
-	.string "Prof. Calla's Pokémon Lab$"
+	.string "Professor Calla's Pokémon Lab$"
 
 FloracrestTown_EventScript_TownSign_Text_0:
 # 22 "data/maps/FloracrestTown/scripts.pory"
@@ -86,7 +86,7 @@ FloracrestTown_EventScript_FatMan_Text_0:
 
 FloracrestTown_EventScript_SailorInteract_Text_0:
 # 30 "data/maps/FloracrestTown/scripts.pory"
-	.string "{COLOR BLUE}You're not cut out for the sea, kid.\pGet off the dock!$"
+	.string "{COLOR BLUE}You're not cut out for the sea, kid.\pScram!$"
 
 FloracrestTown_EventScript_DockFisherman_Text_0:
 # 34 "data/maps/FloracrestTown/scripts.pory"
@@ -94,4 +94,4 @@ FloracrestTown_EventScript_DockFisherman_Text_0:
 
 FloracrestTown_EventScript_GuardKid_Text_0:
 # 39 "data/maps/FloracrestTown/scripts.pory"
-	.string "{COLOR BLUE}My dad's a guard at the\nFloracrest Bay Lighthouse!\pHe says it's his job to protect\nthe town from sea monsters!$"
+	.string "{COLOR BLUE}It's dangerous to go into the the grass!\pWild Pokémon live there.\pYou'll need your own Pokémon to protect\nyou if you get attacked.$"

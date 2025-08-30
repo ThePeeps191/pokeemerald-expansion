@@ -1,0 +1,15 @@
+mapscripts FloracrestTownNPCHouse2_MapScripts {
+    
+}
+
+script FloracrestTownNPCHouse2_EventScript_Twin1 {
+    msgbox(format("{COLOR RED}I can't wait to go on my own Pokémon journey…"), MSGBOX_NPC)
+}
+
+script FloracrestTownNPCHouse2_EventScript_Twin2 {
+    msgbox("{COLOR RED}I go everywhere with my twin!\nShe's my best friend.", MSGBOX_NPC)
+}
+
+script FloracrestTownNPCHouse2_EventScript_Woman {
+    msgbox("{COLOR RED}You should go check out Professor\n Calla's Pokémon Lab.\pShe's the leading authority on Pokémon\nresearch here in Astaria!", MSGBOX_NPC)
+}

@@ -1,0 +1,11 @@
+mapscripts FloracrestTownNPCHouse1_MapScripts {
+    
+}
+
+script FloracrestTownNPCHouse1_EventScript_Man {
+    msgbox(format("{COLOR BLUE}I've lived in Astaria for as long as I can remember!"), MSGBOX_NPC)
+}
+
+script FloracrestTownNPCHouse1_EventScript_Girl {
+    msgbox("{COLOR RED}I heard scientists recently discovered\nsome ancient artifacts.\pHow cool is that!", MSGBOX_NPC)
+}

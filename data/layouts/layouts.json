@@ -4440,6 +4440,26 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/FloracrestTown_PlayersHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/FloracrestTown_PlayersHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLORACREST_TOWN_NPCHOUSE1",
+      "name": "FloracrestTownNPCHouse1_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/FloracrestTownNPCHouse1/border.bin",
+      "blockdata_filepath": "data/layouts/FloracrestTownNPCHouse1/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLORACREST_TOWN_NPCHOUSE2",
+      "name": "FloracrestTownNPCHouse2_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/FloracrestTownNPCHouse2/border.bin",
+      "blockdata_filepath": "data/layouts/FloracrestTownNPCHouse2/map.bin"
     }
   ]
 }

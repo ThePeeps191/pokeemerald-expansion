@@ -1163,3 +1163,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FloracrestTown_PlayersHouse_1F/scripts.inc"
 
 	.include "data/maps/FloracrestTown_PlayersHouse_2F/scripts.inc"
+
+	.include "data/maps/FloracrestTownNPCHouse1/scripts.inc"
+
+	.include "data/maps/FloracrestTownNPCHouse2/scripts.inc"

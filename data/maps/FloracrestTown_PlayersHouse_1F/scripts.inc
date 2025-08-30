@@ -32,4 +32,4 @@ FloracrestTown_PlayersHouse_1F_EventScript_BrotherScript_Text_0:
 
 FloracrestTown_PlayersHouse_1F_EventScript_MomScript_Text_0:
 # 15 "data/maps/FloracrestTown_PlayersHouse_1F/scripts.pory"
-	.string "{COLOR RED}Go explore Floracrest Town, honey!\nI'll take care of the unpacking.$"
+	.string "{COLOR RED}Go explore Floracrest Town, honey!\nThe Vigoroth will care of the unpacking.$"

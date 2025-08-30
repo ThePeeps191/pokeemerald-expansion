@@ -12,5 +12,5 @@ script FloracrestTown_PlayersHouse_1F_EventScript_BrotherScript {
 }
 
 script FloracrestTown_PlayersHouse_1F_EventScript_MomScript {
-    msgbox("{COLOR RED}Go explore Floracrest Town, honey!\nI'll take care of the unpacking.", MSGBOX_NPC)
+    msgbox("{COLOR RED}Go explore Floracrest Town, honey!\nThe Vigoroth will care of the unpacking.", MSGBOX_NPC)
 }

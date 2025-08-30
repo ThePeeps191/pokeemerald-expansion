@@ -160,6 +160,20 @@
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_FLORACREST_TOWN_NPCHOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 28,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_FLORACREST_TOWN_NPCHOUSE2",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

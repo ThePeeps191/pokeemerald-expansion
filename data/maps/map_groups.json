@@ -625,6 +625,8 @@
   ],
   "gMapGroup_IndoorFloracrest": [
     "FloracrestTown_PlayersHouse_1F",
-    "FloracrestTown_PlayersHouse_2F"
+    "FloracrestTown_PlayersHouse_2F",
+    "FloracrestTownNPCHouse1",
+    "FloracrestTownNPCHouse2"
   ]
 }
